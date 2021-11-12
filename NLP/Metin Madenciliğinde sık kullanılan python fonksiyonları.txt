@@ -1,0 +1,58 @@
+enumerate()
+
+isalpha()   T/F
+isnumeric() T/F 
+isdigit()   T/F
+isalnum()   T/F
+
+
+index() # indexin numarasını ve karakterini döndürür
+
+startswith() T/F  # hangi ifade ile başlayıp bittiğini döndürür 
+endswith()   T/F
+
+count() # içine girilen stringten kaç tane oldugunu döndürür
+
+sorted() # string ifadeyi alfabetik sıralar
+print(*sorted("ABDULLAH") , sep = "") # baştan alfabetik sıralayıp, birleştirir
+
+
+split() # içine ne verilirse o karaktere gore  bölme işlemi yapar , defaultu ""
+
+lower()   \
+upper()    \  burası çok önemli, değişken isimleri belirli yerlerde kullanıldıktan sonra,
+islower()  /   default olarak küçülebiliyor ya da tam tersi. 
+isupper() /  	işte bu noktada ara katmanlara bunları atıp teyit etmemiz gerekir
+
+
+capitalize() # cümlenin ilk harfini büyültür
+title()      # cümle içindeki  kelimelerin ilk harflerini büyültür
+swapcase     # küçüğü büyük / büyüğü küçük yapar 
+
+
+strip()   # ön tanımlı olarak sağ ve soldan kırpma yapar 
+lstrip()  # soldan
+rstrip()  # sağdan
+
+
+split()  # ön tanımlı olarak cümleyi böler ve liste içine atar
+join()   # tam tersidir
+
+
+replace() # değişiklik yapacağım string ifadeyi/ harf kümesi için kullanılır
+str.maketrans(1,2)  # 1 --> düzeltilecek harfleri
+		    # 2 --> düzeltilmiş harfleri ifade eder ve öncesinde tanımladığımız için değiştirir
+		    # twitter analitiğinde , Türkçe metin işleme analitiğinde kullanılır	
+
+ifade.translate() # str.maketrans() ile beraber çalışır ve ondan kuralları alır 
+
+
+		
+str.contains()  # T/F 
+
+
+
+
+
+
+
